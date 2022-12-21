@@ -11507,21 +11507,3 @@ html {
 .copyright {
   background-color: #1a252f;
 }
-
-.video-container {
-  height: 50vh;
-  position: relative;
-  overflow: hidden;
-  @media(min-width: 600px) {
-    height: 100vh;
-  }
-}
-
-video {
-  object-fit: cover; // Set the magic
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-}
