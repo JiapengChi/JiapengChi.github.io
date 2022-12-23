@@ -12015,3 +12015,12 @@ video {
   margin-left: 1rem;
   margin-right: 1rem;
 }
+
+@media (max-width: 1200px) {
+  .gif-fluid {
+    max-width: 85%;
+    height: auto;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}
